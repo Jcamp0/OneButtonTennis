@@ -1,0 +1,187 @@
+/* Title Area */
+#title{
+    width: 50vw;
+    height: 5vh;
+    margin:0 auto;
+    text-align: center;
+    padding-bottom: 1%;
+   
+}
+#titleHeader{
+    font-size: 3vw;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    line-height: 1;
+    text-shadow: seagreen 3px 2px 0;
+    position: relative;
+    font-weight: 800;
+}
+/* Settings Area */
+#settings{
+    width: 40vw;
+    margin:1% auto;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif; 
+    background-color: white;   
+}
+#startButton{
+    width:8vw;
+    font-size: 1.5vw;
+    z-index: 1;
+    text-shadow: 
+          1px 1px 0px #000, 
+          2px 2px 0px #999;
+          border:  4px double #AAA;
+ display: block;
+ margin:5px auto;
+    border:  4px double #AAA;
+    background-color: black;
+    color: white;
+}
+/* GameSpace Divs */
+body{
+    width:100vw;
+    height: 60vh;
+    background-color: indianred;
+
+}
+#gameSpace{
+    width:80vw;
+    margin: 0 auto;
+    background-color: forestgreen;
+    border-style: solid;
+    border-width: 5px;
+    border-color: whitesmoke;
+}
+#ballTrack{
+    height:7%;
+    width:100%;
+    vertical-align: top;
+
+}
+#player1Zone, #player2Zone {
+    width: 18vw;
+}
+#player1Zone {
+    background-color: rgb(0, 0, 119);
+    float: left;
+}
+#player2Zone {
+    background-color: rgb(119, 0, 0);
+    float: right;
+}
+#ball{
+    height: 100%;
+    border-radius: 50%;
+    background-color: greenyellow;
+    position: relative;
+    
+}
+
+/* Tennis Court Lines */
+#lineContainer{
+    width:80vw;
+    position: absolute;
+}
+#centerLine{
+    margin: 0 auto;
+    width:2%;
+    height: 100%;
+    background-color: whitesmoke;
+    padding:0;
+
+}
+/* ScoreBoard */
+footer{
+    padding-top: 1%;
+    height: 20vh;
+}
+#statusDiv{
+    margin: 0 auto;
+    width:30%;
+    padding-top: .5%;
+}
+#status{
+    font-size: 1.7vw;
+    text-align: center;
+    margin:0;
+    color: whitesmoke;
+}
+#scoreBoard{
+    height:20vh;
+    width: 55vw;
+    margin: 0 auto;
+    background-color: forestgreen;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 5px;
+}
+#player1Div{
+    float: left;
+    height:100%;
+    width:12%;
+    padding-left: 10%;
+    font-size: 1.6vw;
+}
+#player2Div{
+    float: right;
+    height:100%;
+    width:12%;
+    padding-right: 10%;
+    font-size: 1.6vw;
+   
+}
+.playerScore{
+    font-family: 'Times New Roman', Times, serif;
+    border-color: whitesmoke;
+    color: firebrick;
+    background-color: black;
+    border-style: solid;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 2vw;
+    margin: 10% 0 10% 0;
+}
+#firstTo{
+    height:100%;
+    width:15%;
+    margin:0 auto;
+    padding-top: 2%;
+}
+#firstToText{
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+h3{
+    display:inline-block
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 1.6vw;
+    margin: 10% 0 10% 0;
+    text-align: center;
+}
+h5{
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 1.3vw;
+    text-align: center;
+    margin: 10% 0 10% 0;
+    
+}
+h6{
+    font-family: 'Times New Roman', Times, serif;
+    border-color: whitesmoke;
+    color: red;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1vw;
+    margin: 10% 0 10% 0;
+}

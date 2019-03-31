@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang='en'>
+<header>
+    <title>One Button Tennis</title>
+    <link rel='stylesheet' href='styles.css' link>
+</header>
+
+
+
+<body>
+    <div id="title">
+        <h1 id=titleHeader>One Button Tennis</h1>
+    </div>
+    <!-- Rules and win limit // will hide when start is pressed -->
+    <div id="settings">
+        <h2>Instructions</h2>
+        <p>This is a two-player game of Tennis. A ball will bounce between each player's zone. </br> 
+                Press your key once to serve the ball. </br>
+                <b>Hold your key down to ready your swing. Release your key when the ball enters your hit zone. </b>
+            </p>
+        <h2>Settings</h2>
+            <h3>Score limit: </h3>
+            <input id="winLimit" input type="number" min="1" max="69" value="6"></input>
+            </br>
+            <h3>Starting ball speed: </h3>
+            <input id="startingSpeed" input type="number" min="1" max="18" value="5"></input>
+            <div id="startDiv">
+                <button id="startButton">Start!</button>
+            </div>
+    </div>
+  <!-- Play area-->
+
+
+    <div id="gameSpace">
+    <div id="player1Zone">
+         </div>
+    <div id="player2Zone">
+        </div>
+        <div id="lineContainer">
+            <div id="centerLine"></div>
+        </div>
+        <div id="ballTrack">
+
+            <div id="ball">
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+
+
+<footer>
+   
+    <div id="scoreBoard">
+            
+        <div id="player1Div">
+                <h4>Player 1</h4>
+                <p id="player1Score" class="playerScore">0</p>
+                <h5>Z</h5>
+        </div>
+        
+        <div id="player2Div">
+                <h4>Player 2</h4>
+                <p id="player2Score" class="playerScore">0</p>
+                <h5>M</h5>
+        </div>
+        <div id="statusDiv">
+                <p id="status">Serving: Player 1</p>
+                
+        </div>
+        <div id="firstTo">
+                <h5 id="firstToText">First to: </h5>
+                
+            </div>
+            
+    </div>
+</footer>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="scripts.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300"rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
+
+</html>
